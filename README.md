@@ -1,10 +1,10 @@
 # meet-tubers-project
 
-> ## **Run server**
+## **Run server**
 >
 > python3 manage.py runserver
 
-> ## **Migration stesp*
+## **Migration stesp**
 >
 > - python3 manage.py makemigrations
 > - python3 manage.py migrate
