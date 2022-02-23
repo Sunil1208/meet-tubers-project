@@ -71,3 +71,6 @@
 > ### Steps to be followed (user)
 >
 > - Create model based on existing model
+> - Serialize, views and urls
+> - Register the app in admin
+> - Debug it
