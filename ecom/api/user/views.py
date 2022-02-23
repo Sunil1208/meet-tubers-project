@@ -57,6 +57,7 @@ def signin(request):
     except UserModel.DoesNotExist:
         return JsonResponse({'error': 'Invalid Email'})
 
+@csrf_exempt
 def signout(request, id):
     logout(request)
 
@@ -70,7 +71,7 @@ def signout(request, id):
     except UserModel.DoesNotExist:
         return JsonResponse({'error': 'Invalid user ID'})
     
-    return JsonResponse({'success': 'Logged success'})
+    return JsonResponse({'success': 'Logout success'})
 
 class UserViewSet(viewsets.ModelViewSet):
     permission_classes_by_action = {'create': [AllowAny]}
