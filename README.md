@@ -47,10 +47,27 @@
 
 ## **Category**
 
-> ### Steps to be taken
+> ### Steps to be followed (category)
 >
 > - Create model
 > - Register in admin
 > - serializers.py file to serialize data in JSON
 > - Views to get all category
 > - Setup URL
+
+## **Product**
+
+> ### Steps to be followed (product)
+>
+> - Create model
+> - Register in admin
+> - serializers.py file to serialize data in JSON
+> - Views to get all category
+> - Setup URL
+
+
+## **User**
+
+> ### Steps to be followed (user)
+>
+> - Create model based on existing model
